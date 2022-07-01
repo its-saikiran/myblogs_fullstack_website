@@ -1,0 +1,31 @@
+.logForm {
+    background-color: whitesmoke;
+    height: 60vh;
+    width: 60vw;
+    margin: 15vh 20vw;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.logInps {
+    height: 45px;
+    width: 33vw;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: x-large;
+}
+
+.logBut {
+    height: 40px;
+    width: 33.5vw;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    font-size: xx-large;
+    margin-top: 15px;
+}    

@@ -1,0 +1,12 @@
+.Error {
+    height: 72vh;
+    width: 70vw;
+    margin: 10vh 15vw;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: red;
+}

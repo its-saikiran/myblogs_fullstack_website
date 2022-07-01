@@ -1,0 +1,63 @@
+.createForm {
+    background-color: whitesmoke;
+    height: 85vh;
+    width: 90vw;
+    margin-left: 5vw;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    font-family: 'Lora', serif;
+}
+
+.createFormDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    height: 40px;
+    width: 80vw; 
+    border-radius: 7px;
+    border-style: none;
+    font-size: 26px;
+    background-color: white;
+}
+
+#chooseFile {
+    font-size: x-large;
+    margin: 15px 0 0 12%;
+}
+
+#blogNote, #blogDesc {
+    width: 80vw;
+    border: none;
+    border-radius: 7px;
+    font-size: large;
+}
+
+.templateColor {
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.templateColor input {
+    margin: 0 35px;
+}
+
+.templateColor label {
+    position: relative;
+    right: 3%;
+}
+
+.createBut {
+    height: 45px;
+    width: 80vw;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    font-size: xx-large;
+    margin-top: 15px;
+}   

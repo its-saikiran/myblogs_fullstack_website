@@ -1,0 +1,64 @@
+.topNavbar {
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 7vh;
+    margin-bottom: 2%;
+}
+
+.topLeft {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topCenter {
+    flex: 3;
+}
+
+.topRightSearch {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topRightProfile {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.topList {
+    display: flex;
+    justify-content: center;
+    margin: 0% 7% 0% 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+.topListItem {
+    margin-right: 40px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.topbarInp {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.topbarInp + i {
+    position: relative;
+    right: 15%;
+    font-size: 18px;
+}

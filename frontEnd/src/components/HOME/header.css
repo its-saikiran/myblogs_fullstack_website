@@ -1,0 +1,41 @@
+.headerSection {
+    height: 85vh;
+    margin: 0 1vw 4vh;
+    background-color: whitesmoke;
+    border-radius: 7px;
+}
+
+.headerTitle {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    color: #444;
+    font-size: 60px;    
+}
+
+.headerImgs {
+    height: 55vh;
+    width: 20vw;
+    border-radius: 15px;
+    position: absolute;
+}
+
+.headerImgOne {
+    top: 17vh;
+    left: 5vw;
+}
+
+.headerImgTwo {
+    top: 24vh;
+    left: 28vw;
+}
+
+.headerImgThree {
+    top: 32vh;
+    left: 51vw;
+}
+
+.headerImgFour {
+    top: 38vh;
+    left: 74vw;
+}

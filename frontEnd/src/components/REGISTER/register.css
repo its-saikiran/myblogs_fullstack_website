@@ -1,0 +1,48 @@
+.regForm {
+    background-color: whitesmoke;
+    height: 85vh;
+    width: 70vw;
+    margin-left: 15vw;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.regFormDiv {
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column;
+}
+
+.regInps {
+    height: 35px;
+    width: 35vw; 
+    border-radius: 7px;
+    border-style: none;
+    font-size: large;
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#forBio {
+    width: 35vw;
+    border: none;
+    border-radius: 5px;
+}
+
+.regBut {
+    height: 40px;
+    width: 35vw;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    font-size: xx-large;
+    margin-top: 5px;
+}   

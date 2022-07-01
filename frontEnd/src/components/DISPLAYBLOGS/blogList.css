@@ -1,0 +1,77 @@
+.blogListParent {
+    font-family: 'Josefin Sans', sans-serif;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,44vw);
+    align-items: center;
+    grid-gap: 6vw;
+}
+
+.blogList {
+    list-style: none;
+    background-color: whitesmoke;
+    border-radius: 1%;
+    padding: 17px 25px;
+}
+
+.blogTitle {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.blogTitle::first-letter {
+    text-transform: uppercase;
+}
+
+.blogShortNote {
+    word-wrap: break-word;
+}
+
+.blogListImg {
+    height: 50vh;
+    width: 40vw;
+}
+
+.fl::first-letter {
+    text-transform: uppercase;
+}
+
+.blogItalic {
+    float: right;
+    margin: 4px 5rem 4px 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.timeSection, .ldSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timeSection div {
+    background-color: white;
+    width: 30%;
+    font-size: 13px;
+    padding: 3px 0px 3px 10px;
+    margin: 0 0 10px;
+}
+
+#thumbsup, #thumbsdown, #comment{
+    font-size: 25px;
+}
+
+#thumbsup:hover {
+    color: green;
+}
+
+#thumbsdown:hover {
+    color: red;
+}
+
+.commentFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
